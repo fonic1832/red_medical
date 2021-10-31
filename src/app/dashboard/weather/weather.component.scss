@@ -1,0 +1,12 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+
+  .weather-information {
+    color: darkgrey;
+  }
+}

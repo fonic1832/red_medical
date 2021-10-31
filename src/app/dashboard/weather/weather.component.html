@@ -1,4 +1,27 @@
 <div class="weather">
   <h3>Top Questions About Weather And Weatherdata</h3>
-</div>
 
+  <div *ngIf="combinedDataSource.length > 0" class="weather-table">
+
+    <table mat-table [dataSource]="combinedDataSource" multiTemplateDataRows>
+      <ng-container matColumnDef="{{ TableColumnNames.TITLE }}">
+        <th mat-header-cell *matHeaderCellDef>Question</th>
+        <td mat-cell *matCellDef="let element"> {{element.stackOverFlow.title}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="{{ TableColumnNames.VIEW_COUNT }}">
+        <th mat-header-cell *matHeaderCellDef>View Count</th>
+        <td mat-cell *matCellDef="let element" class="number-cell"> {{ element.stackOverFlow.view_count | number }} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="weatherData">
+        <th mat-header-cell *matHeaderCellDef>View Count</th>
+        <td mat-cell *matCellDef="let element" colspan="2" class="weather-information">{{ buildWeatherInformation(element.weather) }}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="columns"></tr>
+      <tr mat-row *matRowDef="let row; columns: columns;" (click)="openLink(row.stackOverFlow.link)" class="clickable-row"></tr>
+      <tr mat-row *matRowDef="let row; columns: ['weatherData'];"></tr>
+    </table>
+  </div>
+</div>

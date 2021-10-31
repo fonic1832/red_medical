@@ -5,7 +5,6 @@ import { of, throwError } from 'rxjs';
 describe('StackOverflowQuestionsComponent', () => {
   let cut: StackOverflowQuestionsComponent;
 
-
   beforeEach(() => {
     cut = new StackOverflowQuestionsComponent({ search() {} } as any);
   });
