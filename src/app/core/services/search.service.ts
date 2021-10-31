@@ -1,5 +1,5 @@
 import {Injectable} from "@angular/core";
-import { catchError, map, Observable, pipe } from 'rxjs';
+import { catchError, map, Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 export interface ISearchResultItem  {
