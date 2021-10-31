@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ISearchResultItem, SearchService } from 'app/core/services/search.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _searchService: SearchService) { }
 
   ngOnInit() {
+    console.log('test')
+    this._searchService.search("Angular2")
+      .subscribe({
+        next: (data: ISearchResultItem[]) => {
+          console.log(data)
+        }
+      });
   }
-
 }
