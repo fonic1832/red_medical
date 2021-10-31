@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
-import {Http, Response} from "@angular/http";
-import {Observable} from "rxjs";
+import { catchError, map, Observable, pipe } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 export interface ISearchResultItem  {
     answer_count: number;
@@ -16,25 +16,37 @@ export interface ISearchResultItem  {
     view_count: number;
 }
 
+export interface StackExchangeCommonResponseWrapper {
+  backoff: number;
+  error_id: number;
+  error_message: string;
+  error_name: string;
+  has_more: boolean;
+  items: any[];
+  quota_max: number;
+  quota_remaining: number;
+  page?: number;
+  page_size?: number;
+  total?: number;
+  type?: string;
+}
+
 @Injectable()
 export class SearchService {
 
     private static readonly apiUrl =
         "https://api.stackexchange.com/2.2/search?pagesize=20&order=desc&sort=activity&site=stackoverflow&intitle=";
 
-    constructor(private http: Http) {
+    constructor(private _httpClient: HttpClient) { }
 
+    search(keyword: string): Observable<StackExchangeCommonResponseWrapper> {
+      return this._httpClient.get<StackExchangeCommonResponseWrapper>(SearchService.apiUrl + keyword)
+        .pipe(
+          map((response: StackExchangeCommonResponseWrapper) => {
+            console.log("API USAGE: " + response.quota_remaining + " of " + response.quota_max + " requests available" );
+            return response;
+          }),
+          catchError((err: Response) => err.json())
+        );
     }
-
-    search(keyword: string): Observable<JSON> {
-        return this.http.get(SearchService.apiUrl + keyword)
-            .map((res: Response) => {
-                let data = res.json();
-                console.log("API USAGE: " + data.quota_remaining + " of " + data.quota_max + " requests available" );
-                return data;
-            })
-            .catch((err: Response) => Observable.of(err.json()));
-    }
-
-
 }

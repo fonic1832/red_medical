@@ -7,7 +7,7 @@ import {SearchComponent} from "./search/search.component";
 import {AppRoutingModule} from "./app.routing.module";
 import {APP_BASE_HREF} from "@angular/common";
 import {SearchService} from "./core/services/search.service";
-import {HttpModule} from "@angular/http";
+import { HttpClientModule } from '@angular/common/http';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -15,7 +15,7 @@ describe('AppComponent', () => {
       imports: [
         LayoutModule,
         AppRoutingModule,
-        HttpModule
+        HttpClientModule
       ],
       declarations: [
         AppComponent,
