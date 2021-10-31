@@ -10,10 +10,14 @@ $screen-md-min: 992px !default;
 // Large screen / wide desktop
 $screen-lg-min: 1200px !default;
 
+// Extra large screen / wide desktop
+$screen-xl-min: 1600px !default;
+
 // So media queries don't overlap when required, provide a maximum
 $screen-xs-max: ($screen-sm-min - 1) !default;
 $screen-sm-max: ($screen-md-min - 1) !default;
 $screen-md-max: ($screen-lg-min - 1) !default;
+$screen-lg-max: ($screen-xl-min - 1) !default;
 
 /**** SIDEBAR  ****/
 $sidebar-width: 260px;
