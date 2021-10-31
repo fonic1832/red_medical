@@ -1,6 +1,6 @@
 import { WeatherService } from '../services/weather.service';
 import { of } from 'rxjs';
-import { IWeather } from '../../interfaces/weather.interface';
+import { IWeather } from '../interfaces/weather.interface';
 
 describe('WeatherService', () => {
   let sut: WeatherService;

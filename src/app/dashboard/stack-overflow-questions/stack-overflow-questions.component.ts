@@ -4,8 +4,8 @@ import {
   ISearchResultItem,
   SearchService
 } from "../../core/services/search.service";
+import { TableColumnNames } from "../../core/interfaces/table-column-names.enum";
 import { take, takeUntil } from "rxjs";
-import { TableColumnNames } from "../../interfaces/table-column-names.enum";
 
 @Component({
   selector: "stack-overflow-questions",

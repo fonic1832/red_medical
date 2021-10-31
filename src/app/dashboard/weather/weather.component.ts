@@ -3,8 +3,8 @@ import { forkJoin, take, takeUntil } from 'rxjs';
 import { ISearchResultItem, SearchService } from '../../core/services/search.service';
 import { BaseComponent } from '../../core/base/base.component';
 import { WeatherService } from '../../core/services/weather.service';
-import { IWeather } from '../../interfaces/weather.interface';
-import { TableColumnNames } from '../../interfaces/table-column-names.enum';
+import { IWeather } from '../../core/interfaces/weather.interface';
+import { TableColumnNames } from '../../core/interfaces/table-column-names.enum';
 
 @Component({
   selector: 'weather',
