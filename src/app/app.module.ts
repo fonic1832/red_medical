@@ -3,16 +3,18 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import {SearchService} from "./core/services/search.service";
-import {AppRoutingModule} from "./app.routing.module";
+import { SearchService } from './core/services/search.service';
+import { AppRoutingModule } from './app.routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import {LayoutModule} from "./core/layout/layout.module";
+import { LayoutModule } from './core/layout/layout.module';
 import { SearchComponent } from './search/search.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StackOverflowQuestionsComponent } from './dashboard/stack-overflow-questions/stack-overflow-questions.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { NumberPipe } from 'app/core/pipes/number.pipe';
+import { WeatherComponent } from './dashboard/weather/weather.component';
+import { WeatherService } from 'app/core/services/weather.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { NumberPipe } from 'app/core/pipes/number.pipe';
     DashboardComponent,
     SearchComponent,
     StackOverflowQuestionsComponent,
-    NumberPipe
+    NumberPipe,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { NumberPipe } from 'app/core/pipes/number.pipe';
     BrowserAnimationsModule,
     MatTableModule
   ],
-  providers: [SearchService],
+  providers: [SearchService, WeatherService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
