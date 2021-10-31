@@ -11,12 +11,5 @@ export class DashboardComponent implements OnInit {
   constructor(private _searchService: SearchService) { }
 
   ngOnInit() {
-    console.log('test')
-    this._searchService.search("Angular2")
-      .subscribe({
-        next: (data: ISearchResultItem[]) => {
-          console.log(data)
-        }
-      });
   }
 }

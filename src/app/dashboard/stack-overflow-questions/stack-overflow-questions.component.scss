@@ -1,0 +1,21 @@
+.stack-overflow {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+
+  &-table {
+    table {
+      width: 100%;
+
+      th.mat-cell {
+        font-size: 16px;
+      }
+
+      td.mat-cell {
+        font-size: 14px;
+      }
+    }
+  }
+}
