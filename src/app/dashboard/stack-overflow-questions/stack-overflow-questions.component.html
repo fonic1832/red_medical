@@ -3,18 +3,18 @@
 
   <div class="stack-overflow-table">
     <table mat-table [dataSource]="searchResults">
-      <ng-container matColumnDef="{{ StackOverflowColumnName.TITLE }}">
+      <ng-container matColumnDef="{{ TableColumnNames.TITLE }}">
         <th mat-header-cell *matHeaderCellDef>Question</th>
         <td mat-cell *matCellDef="let element"> {{element.title}} </td>
       </ng-container>
 
-      <ng-container matColumnDef="{{ StackOverflowColumnName.VIEW_COUNT }}">
+      <ng-container matColumnDef="{{ TableColumnNames.VIEW_COUNT }}">
         <th mat-header-cell *matHeaderCellDef>View Count</th>
-        <td mat-cell *matCellDef="let element" class="number-cell"> {{ element.view_count }} </td>
+        <td mat-cell *matCellDef="let element" class="number-cell"> {{ element.view_count | number }} </td>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="columns"></tr>
-      <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+      <tr mat-row *matRowDef="let row; columns: columns;" (click)="openLink(row.link)" class="clickable-row"></tr>
     </table>
   </div>
 </div>

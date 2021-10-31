@@ -12,13 +12,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { StackOverflowQuestionsComponent } from './dashboard/stack-overflow-questions/stack-overflow-questions.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
+import { NumberPipe } from 'app/core/pipes/number.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     SearchComponent,
-    StackOverflowQuestionsComponent
+    StackOverflowQuestionsComponent,
+    NumberPipe
   ],
   imports: [
     BrowserModule,

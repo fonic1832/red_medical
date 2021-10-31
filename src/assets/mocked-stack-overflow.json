@@ -1,0 +1,276 @@
+{
+  "items": [
+    {
+      "tags": [
+        "javascript",
+        "angular",
+        "rxjs"
+      ],
+      "owner": {
+        "reputation": 8018,
+        "user_id": 1691423,
+        "user_type": "registered",
+        "accept_rate": 89,
+        "profile_image": "https://i.stack.imgur.com/YtJy0.jpg?s=256&g=1",
+        "display_name": "vlio20",
+        "link": "https://stackoverflow.com/users/1691423/vlio20"
+      },
+      "is_answered": true,
+      "view_count": 1184,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1635586699,
+      "creation_date": 1457206411,
+      "last_edit_date": 1635586699,
+      "question_id": 35818851,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/35818851/angular2-observables-best-practice",
+      "title": "Angular2 Observables best practice"
+    },
+    {
+      "tags": [
+        "performance",
+        "angular",
+        "load"
+      ],
+      "owner": {
+        "reputation": 6140,
+        "user_id": 776546,
+        "user_type": "registered",
+        "accept_rate": 80,
+        "profile_image": "https://i.stack.imgur.com/ARHff.jpg?s=256&g=1",
+        "display_name": "nyxz",
+        "link": "https://stackoverflow.com/users/776546/nyxz"
+      },
+      "is_answered": true,
+      "view_count": 19628,
+      "answer_count": 4,
+      "score": 15,
+      "last_activity_date": 1635525968,
+      "creation_date": 1476899435,
+      "last_edit_date": 1592644375,
+      "question_id": 40138334,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/40138334/angular2-slow-initial-page-load-caused-of-load-sequence",
+      "title": "Angular2 slow initial page load caused of load sequence"
+    },
+    {
+      "tags": [
+        "angular",
+        "angular2-template",
+        "angular2-forms",
+        "angular2-services"
+      ],
+      "owner": {
+        "reputation": 757,
+        "user_id": 4559107,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https://lh6.googleusercontent.com/-WcQ0uMqs-z4/AAAAAAAAAAI/AAAAAAAAAnw/3I84beazbc4/photo.jpg?sz=256",
+        "display_name": "mahesh peddi",
+        "link": "https://stackoverflow.com/users/4559107/mahesh-peddi"
+      },
+      "is_answered": true,
+      "view_count": 3478,
+      "answer_count": 4,
+      "score": 2,
+      "last_activity_date": 1635513530,
+      "creation_date": 1491395880,
+      "question_id": 43231429,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/43231429/how-to-add-form-controls-to-the-existing-form-group-angular2",
+      "title": "How to add form controls to the existing form group - angular2"
+    },
+    {
+      "tags": [
+        "angular",
+        "charts",
+        "google-visualization",
+        "devextreme",
+        "devextreme-angular"
+      ],
+      "owner": {
+        "reputation": 426,
+        "user_id": 1564958,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://www.gravatar.com/avatar/65b36a86b97c96c9e053bb513ed6fe41?s=256&d=identicon&r=PG",
+        "display_name": "Madhavi",
+        "link": "https://stackoverflow.com/users/1564958/madhavi"
+      },
+      "is_answered": false,
+      "view_count": 107,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1635493954,
+      "creation_date": 1515669517,
+      "last_edit_date": 1635493954,
+      "question_id": 48205836,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/48205836/need-to-plot-images-in-a-chart-using-angular2",
+      "title": "Need to plot images in a chart using Angular2"
+    },
+    {
+      "tags": [
+        "angular",
+        "ionic2"
+      ],
+      "owner": {
+        "reputation": 23,
+        "user_id": 4473786,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/b32547c155fb3220b7fe02085a86a041?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Madhuri",
+        "link": "https://stackoverflow.com/users/4473786/madhuri"
+      },
+      "is_answered": false,
+      "view_count": 7800,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1635476830,
+      "creation_date": 1477554236,
+      "question_id": 40278977,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/40278977/angular2-in-multiple-checkboxes-list-get-the-value-of-checked-checkbox",
+      "title": "Angular2 , in multiple checkboxes list get the value of checked checkbox"
+    },
+    {
+      "tags": [
+        "javascript",
+        "angular",
+        "responsive-design",
+        "angular2-changedetection"
+      ],
+      "owner": {
+        "reputation": 527,
+        "user_id": 6623210,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/4da937771865750f355c54457629581e?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Anthony Day",
+        "link": "https://stackoverflow.com/users/6623210/anthony-day"
+      },
+      "is_answered": true,
+      "view_count": 66388,
+      "accepted_answer_id": 38937802,
+      "answer_count": 5,
+      "score": 42,
+      "last_activity_date": 1635453749,
+      "creation_date": 1471071960,
+      "last_edit_date": 1495539204,
+      "question_id": 38930183,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/38930183/angular2-expression-has-changed-after-it-was-checked-binding-to-div-width-wi",
+      "title": "Angular2 - Expression has changed after it was checked - Binding to div width with resize events"
+    },
+    {
+      "tags": [
+        "angular",
+        "pipes-filters"
+      ],
+      "owner": {
+        "reputation": 7619,
+        "user_id": 3532945,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https://i.stack.imgur.com/d31VJ.jpg?s=256&g=1",
+        "display_name": "brando",
+        "link": "https://stackoverflow.com/users/3532945/brando"
+      },
+      "is_answered": true,
+      "view_count": 2483,
+      "accepted_answer_id": 37531392,
+      "answer_count": 4,
+      "score": 1,
+      "last_activity_date": 1635432902,
+      "creation_date": 1464621385,
+      "question_id": 37529025,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/37529025/angular2-no-pipe-decorator-found-on-component",
+      "title": "Angular2: No Pipe decorator found on Component"
+    },
+    {
+      "tags": [
+        "angular",
+        "gzip",
+        "angular-cli",
+        "production-environment"
+      ],
+      "owner": {
+        "reputation": 2395,
+        "user_id": 3050238,
+        "user_type": "registered",
+        "accept_rate": 77,
+        "profile_image": "https://www.gravatar.com/avatar/1366ae6924f53373cd89680640ecd974?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Vic",
+        "link": "https://stackoverflow.com/users/3050238/vic"
+      },
+      "is_answered": true,
+      "view_count": 9041,
+      "accepted_answer_id": 43722534,
+      "answer_count": 3,
+      "score": 3,
+      "last_activity_date": 1635327056,
+      "creation_date": 1493655468,
+      "question_id": 43722446,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/43722446/angular2-using-gzip-files-in-production",
+      "title": "Angular2: using gzip files in production"
+    },
+    {
+      "tags": [
+        "angular",
+        "element",
+        "viewport"
+      ],
+      "owner": {
+        "reputation": 1674,
+        "user_id": 1215485,
+        "user_type": "registered",
+        "accept_rate": 58,
+        "profile_image": "https://www.gravatar.com/avatar/26b375a94cd47413fd871ed1be38f4c7?s=256&d=identicon&r=PG",
+        "display_name": "Shruti Nair",
+        "link": "https://stackoverflow.com/users/1215485/shruti-nair"
+      },
+      "is_answered": true,
+      "view_count": 40007,
+      "accepted_answer_id": 48700662,
+      "answer_count": 1,
+      "score": 30,
+      "last_activity_date": 1635233648,
+      "creation_date": 1518160935,
+      "last_edit_date": 1593971144,
+      "question_id": 48700624,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/48700624/pass-element-ref-to-a-method-in-angular2",
+      "title": "pass element ref to a method in angular2"
+    },
+    {
+      "tags": [
+        "angular"
+      ],
+      "owner": {
+        "reputation": 1320,
+        "user_id": 5526445,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/6ed6d64412ee666aa2c37b4465db4016?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Peter",
+        "link": "https://stackoverflow.com/users/5526445/peter"
+      },
+      "is_answered": false,
+      "view_count": 30,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1635213093,
+      "creation_date": 1635199546,
+      "last_edit_date": 1635199752,
+      "question_id": 69715286,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69715286/angular2-and-how-to-add-a-dynamic-property-based-on-condition",
+      "title": "Angular2 and how to add a dynamic property based on condition"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 297
+}

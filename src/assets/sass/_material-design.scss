@@ -1,6 +1,17 @@
-
 .mat-table.cdk-table {
   width: 100%;
+
+  tr.mat-row.clickable-row {
+    cursor: pointer;
+
+    &:hover td {
+      background-color: whitesmoke;
+    }
+
+    &:active td {
+      background-color: #efefef;
+    }
+  }
 
   th.mat-cell {
     font-size: 16px;
