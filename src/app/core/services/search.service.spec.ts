@@ -81,4 +81,13 @@ describe('SearchService', () => {
         });
     });
   });
+
+  describe('_decodeHtmlEntities', () => {
+    it('should decode html entity correctly', () => {
+      const toDecode: string = 'This is a cool &amp; &quot;random&apos; text';
+      const expected: string = 'This is a cool & \"random\' text';
+
+      expect((sut as any)._decodeHtmlEntities(toDecode)).toEqual(expected);
+    })
+  });
 });

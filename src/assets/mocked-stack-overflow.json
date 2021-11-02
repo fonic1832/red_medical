@@ -25,7 +25,7 @@
       "question_id": 35818851,
       "content_license": "CC BY-SA 4.0",
       "link": "https://stackoverflow.com/questions/35818851/angular2-observables-best-practice",
-      "title": "Angular2 Observables best practice"
+      "title": "What does the &quot;as const&quot; mean in TypeScript and what is its use case?"
     },
     {
       "tags": [
