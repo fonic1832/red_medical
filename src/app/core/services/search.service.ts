@@ -65,8 +65,10 @@ export class SearchService {
    * @param count
    */
   public search(keyword: string, count: number): Observable<ISearchResultItem[]> {
-    // const url: string = `${SearchService.apiBaseUrl}?pagesize=${count}&order=desc&sort=activity&site=stackoverflow&intitle=${keyword}`
-    const url: string = 'http://localhost:4200/assets/mocked-stack-overflow.json';
+    // Use this endpoint for testing purposes, because the stackExchange api has a limit of 300 per timeframe
+    // const url: string = 'http://localhost:4200/assets/mocked-stack-overflow.json';
+    const url: string = `${SearchService.apiBaseUrl}?pagesize=${count}&order=desc&sort=activity&site=stackoverflow&intitle=${keyword}`
+
     return this._httpClient.get<any>(url)
       .pipe(
         map((response: IStackExchangeCommonResponseWrapper) => {
