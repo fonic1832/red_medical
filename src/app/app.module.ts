@@ -51,7 +51,6 @@ export function appInitializerFactory(translateService: TranslateService, inject
     LayoutModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTableModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -59,6 +58,7 @@ export function appInitializerFactory(translateService: TranslateService, inject
         deps: [HttpClient]
       }
     }),
+    MatTableModule
   ],
   providers: [
     SearchService,

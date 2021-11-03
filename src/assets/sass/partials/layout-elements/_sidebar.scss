@@ -116,7 +116,7 @@
     .pushed-right--mobile {
         > .topbar,
         > .main-content {
-            transform: translate3d($sidebar-width, 0, 0);
+            transform: translate3d(0, $topbar-height, 0);
         }
 
         .main-content {
@@ -126,6 +126,7 @@
 
     .sidebar--left--mobile--open {
         transform: translate3d(0, 0, 0);
+        top: 65px;
     }
 }
 

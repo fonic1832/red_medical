@@ -1,3 +1,14 @@
-.topbar.hidden-print {
-  display: none;
+.topbar__inner {
+  display: flex;
+  align-items: center;
+}
+
+.topbar__inner span {
+  margin-right: 16px;
+}
+
+@media(min-width: 992px) {
+  .hidden-print {
+    display: none;
+  }
 }

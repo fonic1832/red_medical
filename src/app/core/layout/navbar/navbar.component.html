@@ -1,5 +1,12 @@
-<header class="topbar hidden-print">
+<header id="app-topbar" class="topbar hidden-print">
   <div class="topbar__inner">
-    <input type="text" placeholder="Suche nach Ärzten">
+    <a (click)="toggleMenu()">
+      <i class="fa fa-fw fa-bars sidebar-nav__menu__item__icon"></i>
+      <span>
+        <img src="assets/images/Hamburger_icon.svg"/>
+      </span>
+    </a>
+
+    <h2>Unicorn Medical</h2>
   </div>
 </header>
