@@ -1,0 +1,4 @@
+{
+  "en": "On {{date}} at {{time}} it was {{tempA}} °C. It rained {{rain}} l/m2, the wind speed was {{wind}} km/h and the air pressure was {{airPressure}} Pa.",
+  "de": "Am {{date}} um {{time}} Uhr hatte es {{tempA}} °C. Es hat {{rain}} l/m2 geregnet, die Windgeschwindigkeit betrug {{wind}} km/h und der Luftdruck {{airPressure}} Pa."
+}

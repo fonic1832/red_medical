@@ -1,0 +1,9 @@
+{
+    "App.Dashboard.Question": "Frage",
+    "App.Dashboard.TopQuestionsAbout": "Top {{count }} Fragen zum Thema {{topic}}",
+    "App.Dashboard.TopQuestionsWeather": "Wetterdaten Und Top Fragen zum Thema Wetter",
+    "App.Dashboard.ViewCount": "Aufrufe",
+    "App.Dashboard.WeatherDataText": "Am {{date}} um {{time}} Uhr hatte es {{tempA}} °C. Es hat {{rain}} l/m2 geregnet, die Windgeschwindigkeit betrug {{wind}} km/h und der Luftdruck {{airPressure}} Pa.",
+    "App.Title": "Medizinisches Einhorn",
+    "template": "!Example"
+}

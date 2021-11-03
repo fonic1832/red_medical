@@ -18,7 +18,7 @@ export class StackOverflowQuestionsComponent extends BaseComponent implements On
 
   public TableColumnNames: typeof TableColumnNames = TableColumnNames;
 
-  private readonly NUM_OF_SEARCH_RESULTS: number = 10;
+  public readonly NUM_OF_SEARCH_RESULTS: number = 10;
 
   /** The table data source*/
   public searchResults: ISearchResultItem[] = [];

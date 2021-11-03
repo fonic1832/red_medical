@@ -1,15 +1,15 @@
 <div class="stack-overflow">
-  <h3>Top 10 Questions About {{ searchCriteria }}</h3>
+  <h3>{{ textmodules.App.Dashboard.TopQuestionsAbout | translate : { count: NUM_OF_SEARCH_RESULTS, topic: searchCriteria } }}</h3>
 
   <div class="stack-overflow-table">
     <table mat-table [dataSource]="searchResults">
       <ng-container matColumnDef="{{ TableColumnNames.TITLE }}">
-        <th mat-header-cell *matHeaderCellDef>Question</th>
+        <th mat-header-cell *matHeaderCellDef>{{ textmodules.App.Dashboard.Question | translate }}</th>
         <td mat-cell *matCellDef="let element"> {{element.title}} </td>
       </ng-container>
 
       <ng-container matColumnDef="{{ TableColumnNames.VIEW_COUNT }}">
-        <th mat-header-cell *matHeaderCellDef class="number-cell">View Count</th>
+        <th mat-header-cell *matHeaderCellDef class="number-cell">{{ textmodules.App.Dashboard.ViewCount | translate }}</th>
         <td mat-cell *matCellDef="let element" class="number-cell"> {{ element.view_count | number }} </td>
       </ng-container>
 

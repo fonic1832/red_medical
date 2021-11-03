@@ -1,0 +1,9 @@
+{
+    "App.Dashboard.Question": "Question",
+    "App.Dashboard.TopQuestionsAbout": "Top {{count }} Questions About {{topic}}",
+    "App.Dashboard.TopQuestionsWeather": "Weatherdata And Top Questions About Weather",
+    "App.Dashboard.ViewCount": "ViewCount",
+    "App.Dashboard.WeatherDataText": "On {{date}} at {{time}} it was {{tempA}} °C. It rained {{rain}} l/m2, the wind speed was {{wind}} km/h and the air pressure was {{airPressure}} Pa.",
+    "App.Title": "Medical Unicorn",
+    "template": "Example"
+}
